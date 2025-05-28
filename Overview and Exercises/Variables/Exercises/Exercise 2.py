@@ -1,4 +1,4 @@
-# Exercise 2
+# Exercises 2
 
 MyName = input('Please enter your name:')
 MyAge = input('Please enter your age:')

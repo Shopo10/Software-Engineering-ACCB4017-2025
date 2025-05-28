@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercises 1
 
 MyName = 'Oliver'
 MyAge = 19

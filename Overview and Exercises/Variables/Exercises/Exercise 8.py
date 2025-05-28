@@ -1,4 +1,4 @@
-# Exercise 8
+# Exercises 8
 
 # Ask the user to enter the side length of the square
 side = float(input("Enter the side length of the square: "))
