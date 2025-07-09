@@ -1,9 +1,12 @@
 def get_valid_duration():
+    MAX_DURATION = 168  # Hard upper limit (1 week)
     while True:
         try:
             duration = float(input("Enter duration of parking in hours (e.g. 2.5): "))
             if duration <= 0:
                 print("Duration must be greater than 0. Try again.")
+            elif duration > MAX_DURATION:
+                print(f"Duration cannot exceed {MAX_DURATION} hours (1 week). Try again.")
             elif duration < 1 or duration > 72:
                 confirmation = input(f"You entered {duration} hours. Are you sure? (yes/no): ").lower()
                 if confirmation == "yes":
